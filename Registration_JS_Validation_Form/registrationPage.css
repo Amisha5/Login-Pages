@@ -1,0 +1,56 @@
+		*
+		{
+			margin: 0px;
+			padding: 0px;
+		}
+		body
+		{
+			padding: inherit;
+			display:block;
+		}
+		
+		marquee
+		{
+			font-size: 25px;
+
+			padding: 10px;
+			background-color: orange;
+			height: 4vh;
+		}
+		form
+		{
+			margin-top: 80px;
+			position: center;
+			padding: 15px;
+			width: 22%;
+			border: solid 5px orange;
+			margin: auto;
+			background-color: black;
+			color: gray;
+		}
+		label
+		{
+		 word-spacing: 2px;
+		 font-weight: bold;
+		 font-size: 20px;
+		}
+
+		input
+		{
+			width: 100%;		
+			padding: 6px 10px;
+  			margin: 8px 0;
+			display: inline;
+  			border: 1px solid #ccc;
+			box-sizing: border-box;
+			border-radius: 15px;
+			font: italic;
+		}
+		button
+		{
+			width: 100px;
+			height: 40px;
+			margin-left: 60px;
+			border-radius: 20px;
+			
+		}
