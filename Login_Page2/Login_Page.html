@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body
+		{
+			
+			padding:150px;
+			 
+			 background-image: url("images/img1.jpg");
+			 background-position: center;
+			 background-repeat: no-repeat;
+			 background-size: 100%;
+		}
+		
+		
+		input[type=text], input[type=password]
+		{
+			margin:10px;
+			border-radius: 5px;
+			width: 100%;
+			padding: 8px 18px;
+			box-sizing: border-box;
+		}
+		
+		button[type=submit]
+ 		{
+ 			width: 80%;
+ 			margin-top: 10px;
+ 			margin-right: 40px;
+ 			padding: 4px;
+
+ 		}
+ 		input[type=checkbox]
+ 		{
+ 			margin: 0px;
+ 			
+ 		}
+ 		.cancelbtn
+ 		{
+ 			background-color: black;
+ 			color: white;
+ 			width: 80%;
+ 			margin-top: 10px;
+ 			margin-right: 40px;
+ 			padding: 4px;
+ 		}
+ 		.psw
+ 		{
+ 			float: right;
+ 			font-size: 20px;
+ 		}
+ 		.back
+ 		{
+ 			
+ 			width: 80px;
+ 			
+ 			padding: 1px;
+ 		}
+	</style>
+</head>
+<body>
+	<div class="back">
+		<button type="button"><a href="#">Back</a></button>
+	</div>
+	
+	<h1><i>Login page</i></h1>
+	<form>
+<table>
+	<tr>
+		<td><b>USERNAME</b></td>
+		<td><input type="text" name="username"></td>
+	</tr>
+	<tr>
+		<td><b>PASSWORD</b></td>
+		<td><input type="password" name="PassWord"></td>
+	</tr>
+		<tr>
+			<td><input type="checkbox" checked="checked" name="remember" required><b>&nbsp;Remember Me</b></td>
+			
+		</tr>
+		<tr>
+		<td><button type="submit">Login</button></td>
+	</tr>
+		<tr>
+			<td><button type="button" class="cancelbtn">Cancle</button></td>
+		<td><span class="psw" style="color: white;">Forgot<a href="#" style="color: white;">password?</a></span></td>
+		</tr>
+	
+</table>
+</form>
+</body>
+</html>
